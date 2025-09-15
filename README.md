@@ -1,26 +1,23 @@
-# Pocket-SDVX-Pico-v4
-Pocket SDVX Pico v4 source files, production files, and documentation
+# WIP
+# Pocket-SDVX-RP2040-Zero
 
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.  中国人，我在看你们。
 
-![Pocket SDVX Pico v4](pocket_sdvx_pico_top_c.jpg)
-
-Although I won't be selling this particular version anymore, I have plans to sell updated designs soon.  Join the discord for discussion and support! https://discord.gg/MmuKd73XbY . I also now have a storefront! https://www.speedylabs.us/
+![Pocket SDVX RP2040 Zero v1](pocket_sdvx_pico_top_c.jpg)
 
 ## Parts Required:
 - JLCPCB parts (Boards are 180 mm*100 mm, white PCB color, remove order number[specify a location]):
-    - 1x Pocket-SDVX-Pico-Plate-v4-2 (MOQ 5)
-    - 1x Pocket-SDVX-Pico-v4-3 + SMT Assembly (MOQ 5)
-        - SMT Assemble the top side.  There should be 9 unique parts.
+    - 1x Pocket-SDVX-RP2040-Zero-Plate-2 (MOQ 5)
+    - 1x Pocket-SDVX-RP2040-Zero (MOQ 5)
 - McMaster parts:
     - 4x Feet - 8884T13
     - 4x M3 Lock Nut - 90576A102
     - 4x M3x12 Screw - 92095A183 
     - 4x No.6 1/8" Nylon Spacer - 94639A507 
 - Mouser parts:
-    - 2x 2U Stabilizer - 540-G99-0224
+    - 2x 2U PCB Mount stabilizers
     - 2x Encoder - PEC16-4015F-N0024
-- 1x Raspberry Pi Pico
+- 1x RP2040 Zero
 - XDA Keycap Set https://www.speedylabs.us/product/pocket-sdvx-keycaps/
     - 1x 1u, 4x 1.5u, 2x 2u
 - 2x 22mm Knob https://www.speedylabs.us/product/pocket-sdvx-aluminum-knob/
