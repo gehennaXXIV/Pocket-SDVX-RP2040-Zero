@@ -1,42 +1,56 @@
-# Pocket-SDVX-Pico-v4
-Pocket SDVX Pico v4 source files, production files, and documentation
+# Pocket-SDVX-RP2040-Zero
 
-This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.  中国人，我在看你们。
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).  
+中国人，我在看你们。
 
-![Pocket SDVX Pico v4](pocket_sdvx_pico_top_c.jpg)
+## Changes from the original
+- Removed LEDs and SMD parts for a simpler, lower-cost hand-solder build  
+- Replaced the Pi Pico with an RP2040 Zero  
+- Changed plate screws from M3 to M2 (using round spacers + rubber adhesive feet)  
+- Switched from plate-mount to PCB-mount stabilizers  
+- Added a 3D-printed case  
 
-Although I won't be selling this particular version anymore, I have plans to sell updated designs soon.  Join the discord for discussion and support! https://discord.gg/MmuKd73XbY . I also now have a storefront! https://www.speedylabs.us/
+![Pocket SDVX RP2040 Zero v2](1.png)  
+![Pocket SDVX RP2040 Zero v2](2.png)  
 
-## Parts Required:
-- JLCPCB parts (Boards are 180 mm*100 mm, white PCB color, remove order number[specify a location]):
-    - 1x Pocket-SDVX-Pico-Plate-v4-2 (MOQ 5)
-    - 1x Pocket-SDVX-Pico-v4-3 + SMT Assembly (MOQ 5)
-        - SMT Assemble the top side.  There should be 9 unique parts.
-- McMaster parts:
-    - 4x Feet - 8884T13
-    - 4x M3 Lock Nut - 90576A102
-    - 4x M3x12 Screw - 92095A183 
-    - 4x No.6 1/8" Nylon Spacer - 94639A507 
-- Mouser parts:
-    - 2x 2U Stabilizer - 540-G99-0224
-    - 2x Encoder - PEC16-4015F-N0024
-- 1x Raspberry Pi Pico
-- XDA Keycap Set https://www.speedylabs.us/product/pocket-sdvx-keycaps/
-    - 1x 1u, 4x 1.5u, 2x 2u
-- 2x 22mm Knob https://www.speedylabs.us/product/pocket-sdvx-aluminum-knob/
-- 7x Gateron Yellow Switches
-- 7x Gateron Hotswap Sockets
-- 1x 3D printed case, White PETG https://www.speedylabs.us/product/pocket-sdvx-pico-case/
+---
 
-[Pocket SDVX Pico v4 Quick Start Guide](https://docs.google.com/document/d/1lTzADQI5E5vRpHBv-0IfLbDSh2zEKCUAdh5BqFhex2I/edit?usp=sharing)  
-[Kit Assembly Guide](https://docs.google.com/document/d/1bsWk7fmLKUGv5YgQknoNQcy0RX3fi5gCZRvfOJAa-P0/)
+## Parts Required
+- **JLCPCB boards** (180 × 100 mm, white, remove order number or specify location):  
+  - 1× Pocket-SDVX-RP2040-Zero-Plate (MOQ 5)  
+  - 1× Pocket-SDVX-RP2040-Zero (MOQ 5)  
+- 1× RP2040 Zero  
+- 1× 6×6×7 mm tactile switch (4-pin)  
+- 2× Encoder – [PEC16-4015F-N0024](https://www.speedylabs.us/product/bourns-pec16-2015f-n0024-encoder/) (or any EC16 encoder with no detents)  
+- 4× 1206 10nF SMD capacitors  
+- 7× Any MX switches  
+- 7× Gateron hotswap sockets  
 
-## Addendum
-As promised many months ago, Speedy Labs' most popular product is now open sourced.  Pocket-SDVX-Pico v4 is my second PCB, and therefore everything's a little bit sloppy.  Nevertheless, everything here is functional and has been self-learned online along with the help of the community.  Thanks for all the support!
+- 1× 3D-printed case  
+- 4× M2×10 round standoffs (aligns plate with 3D case + USB port)  
+- 8× M2×6 screws  
+- 4× M3×5 mm round acrylic spacers (7×3×5 mm tall, prevents PCB sag)  
+- 2× 2U PCB-mount stabilizers (screw-in preferred, not plate-mount)  
+- 4× adhesive rubber feet  
 
-FYI I should probably let everyone know the most common defects I've received:
-- RGB LEDs dead or not soldered properly
-- Extra Aux Button wobbly/non-functional/misaligned
-- Smudged Silkscreen
+- XDA Keycap Set: https://www.speedylabs.us/product/pocket-sdvx-keycaps/  
+  - 1× 1u  
+  - 4× 1.5u  
+  - 2× 2u  
+- 2× 22 mm knobs: https://www.speedylabs.us/product/pocket-sdvx-aluminum-knob/  
 
-There's probably a 5% chance of this happening according to my statistics.  Nothing you can do about it aside from repairing it yourself.
+---
+
+## Assembly Notes
+The RP2040 Zero is soldered from below, with the buttons facing upward.  
+![Firmware to use](https://github.com/gehennaXXIV/Pico-Game-Controller/actions/runs/18004860285/artifacts/4103192028)
+
+![Top](top.png)  
+![Bottom](bottom.png)  
+
+---
+
+## Attribution
+This project is a remix of [Pocket-SDVX-Pico-v4](https://github.com/speedypotato/Pocket-SDVX-Pico-v4) by **speedypotato**, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).  
+
+It is released under the same license.  
