@@ -10,8 +10,8 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 - Switched from plate-mount to PCB-mount stabilizers  
 - Added a 3D-printed case  
 
-![Pocket SDVX RP2040 Zero v2](\pics\1.png)  
-![Pocket SDVX RP2040 Zero v2](\pics\2.png)  
+![Pocket SDVX RP2040 Zero v2](/pics/1.png)  
+![Pocket SDVX RP2040 Zero v2](/pics/2.png)  
 
 ---
 
@@ -47,9 +47,9 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 The RP2040 Zero is soldered from below, with the buttons facing upward.  
 ![Firmware to use](https://github.com/gehennaXXIV/Pico-Game-Controller/actions/runs/18004860285/artifacts/4103192028)
 
-![Top](\pics\top.png)  
-![Bottom](\pics\bottom.png)  
-![Case](\pics\case.png)  
+![Top](/pics/top.png)  
+![Bottom](/pics/bottom.png)  
+![Case](/pics/case.png)  
 
 ---
 
