@@ -8,7 +8,6 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 - Replaced the Pi Pico with an RP2040 Zero  
 - Changed plate screws from M3 to M2 (using round spacers + rubber adhesive feet)  
 - Switched from plate-mount to PCB-mount stabilizers  
-- Added a 3D-printed case  
 
 ![Pocket SDVX RP2040 Zero v2](/pics/1.png)  
 ![Pocket SDVX RP2040 Zero v2](/pics/2.png)  
@@ -28,9 +27,9 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 ## 
 - 1× 3D-printed case  
-- 4× M2×10 round standoffs (aligns plate with 3DP case + USB port)  
-- 8× M2×6 screws  
-- 4× M3×5 mm round acrylic spacers (7×3×5 mm tall, prevents PCB sag)  
+- 4× M2×10mm round standoffs (aligns plate with 3DP case + USB port)  
+- 8× M2×6mm screws  
+- 4× M3×5mm round acrylic spacers (7×3×5 mm tall, prevents PCB sag)  
 - 2× 2U PCB-mount stabilizers (screw-in preferred)  
 - 4× adhesive rubber feet  
 - 1x optional 1.5mm clear acrylic top cutout
@@ -44,11 +43,13 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 ---
 
 ## Assembly Notes
-The RP2040 Zero is soldered from below, with the buttons facing upward.  
+The RP2040 Zero is soldered from below the PCB, with the buttons facing upward.
 
 ![Top](/pics/top.png)  
 ![Bottom](/pics/bottom.png)  
 ![Case](/pics/case.png)  
+![Plate](/pics/plate.png)  
+
 
 ## Flashing the Firmware to RP2040 Zero
 
