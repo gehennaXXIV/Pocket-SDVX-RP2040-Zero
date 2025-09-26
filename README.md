@@ -26,12 +26,12 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 - 7× Any MX switches  
 - 7× Gateron hotswap sockets  
 
-##
+## 
 - 1× 3D-printed case  
 - 4× M2×10 round standoffs (aligns plate with 3DP case + USB port)  
 - 8× M2×6 screws  
 - 4× M3×5 mm round acrylic spacers (7×3×5 mm tall, prevents PCB sag)  
-- 2× 2U PCB-mount stabilizers (screw-in preferred, not plate-mount)  
+- 2× 2U PCB-mount stabilizers (screw-in preferred)  
 - 4× adhesive rubber feet  
 - 1x optional 1.5mm clear acrylic top cutout
 
@@ -45,11 +45,24 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 ## Assembly Notes
 The RP2040 Zero is soldered from below, with the buttons facing upward.  
-![Firmware to use](https://github.com/gehennaXXIV/Pico-Game-Controller/actions/runs/18004860285/artifacts/4103192028)
 
 ![Top](/pics/top.png)  
 ![Bottom](/pics/bottom.png)  
 ![Case](/pics/case.png)  
+
+## Flashing the Firmware to RP2040 Zero
+
+**Firmware to use:** [Download here](https://github.com/gehennaXXIV/Pico-Game-Controller/actions/runs/18004860285/artifacts/4103192028)
+
+---
+
+1. **Download** the firmware `.zip` file from the link above.  
+2. **Extract** the `.uf2` file from the zip archive.  
+3. On your RP2040 Zero, **press and hold** the **BOOT** button.  
+4. While holding the button, **connect** the board to your computer via USB.  
+5. The RP2040 Zero will appear as a **USB drive** on your computer.  
+6. **Drag and drop** the `.uf2` firmware file onto the RP2040 Zero drive.  
+7. The board will automatically reboot and run the new firmware.  
 
 ---
 
