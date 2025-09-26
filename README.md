@@ -10,8 +10,8 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 - Switched from plate-mount to PCB-mount stabilizers  
 - Added a 3D-printed case  
 
-![Pocket SDVX RP2040 Zero v2](1.png)  
-![Pocket SDVX RP2040 Zero v2](2.png)  
+![Pocket SDVX RP2040 Zero v2](SOURCE\pics\1.png)  
+![Pocket SDVX RP2040 Zero v2](SOURCE\pics\2.png)  
 
 ---
 
@@ -26,12 +26,14 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 - 7× Any MX switches  
 - 7× Gateron hotswap sockets  
 
+##
 - 1× 3D-printed case  
-- 4× M2×10 round standoffs (aligns plate with 3D case + USB port)  
+- 4× M2×10 round standoffs (aligns plate with 3DP case + USB port)  
 - 8× M2×6 screws  
 - 4× M3×5 mm round acrylic spacers (7×3×5 mm tall, prevents PCB sag)  
 - 2× 2U PCB-mount stabilizers (screw-in preferred, not plate-mount)  
 - 4× adhesive rubber feet  
+- 1x optional 1.5mm clear acrylic top cutout
 
 - XDA Keycap Set: https://www.speedylabs.us/product/pocket-sdvx-keycaps/  
   - 1× 1u  
@@ -45,8 +47,9 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 The RP2040 Zero is soldered from below, with the buttons facing upward.  
 ![Firmware to use](https://github.com/gehennaXXIV/Pico-Game-Controller/actions/runs/18004860285/artifacts/4103192028)
 
-![Top](top.png)  
-![Bottom](bottom.png)  
+![Top](SOURCE\pics\top.png)  
+![Bottom](SOURCE\pics\bottom.png)  
+![Case](SOURCE\pics\case.png)  
 
 ---
 
