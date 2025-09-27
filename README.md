@@ -53,7 +53,7 @@ The RP2040 Zero is soldered from below the PCB, with the buttons facing upward.
 
 ## Flashing the Firmware to RP2040 Zero
 
-**Firmware to use:** [Download here](https://github.com/gehennaXXIV/Pico-Game-Controller/actions/runs/18004860285/artifacts/4103192028)
+**Firmware to use:** [Download here](https://github.com/gehennaXXIV/Pico-Game-Controller/actions/runs/18056096114/artifacts/4121141816)
 
 ---
 
